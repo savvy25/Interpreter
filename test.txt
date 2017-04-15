@@ -1,0 +1,18 @@
+n := 5;
+fact := 1;
+count := n;
+while count!= 0 do:
+fact := fact*count;
+count := count - 1;
+done;
+print "Factorial of";
+print " n ";
+print "is ";
+print fact;
+print \n;
+if fact <= 10:
+then;
+print "Hello";
+else:
+print "Bye";
+print \n;
